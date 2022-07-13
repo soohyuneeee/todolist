@@ -1,0 +1,10 @@
+import React from "react";
+
+export const useUserContext = () => {
+    const [name, setname] = useState('');
+    return{
+        name,
+        setname,
+    };
+
+};
